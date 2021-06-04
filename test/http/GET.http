@@ -1,0 +1,22 @@
+GET http://localhost:3000/ HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://localhost:3000/1 HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://localhost:3000/google HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://localhost:3000/query?name=teste&sname=sdsd HTTP/1.1
+content-type: application/json
+
+###
+
+GET http://localhost:3000/host HTTP/1.1
+content-type: application/json
